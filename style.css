@@ -4,35 +4,45 @@ body{
 }
 h1{
     font-size: 50px;
+    margin: 0%;
 }
 h2{
     font-size: 50px;
 }
-.p-class{
-    font-size:150%;
+.orange-color{
+    color: orangered;
 }
-.first-section{
-    display: flex;
-    margin-left: 50px;
-    margin-bottom: 5%;
-
+.gray-color{
+    color: gray;
+}
+.white-color{
+    color: white;
 }
 .half-width{
     width: 50%;
 }
 .half-width img{
+    width: 100%;
+    margin-top: 10%;
+}
+.para{
+    margin-top: 30%;
+}
+.half-width2 {
     width: 50%;
-    padding-left: 5%;
-   
 }
-small{
-    display: block;
+.half-width2 img {
+    width: 60%;
 }
-.color{
-    color: brown;
+
+.p-class{
+    font-size:150%;
 }
-.color2{
-    color: grey;
+.flexible-container{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 5%;
+
 }
 .link-button{
     background-image: linear-gradient(yellow,tomato);
@@ -42,27 +52,60 @@ small{
     color: white;
     border-radius: 50px;
 }
-
-.second-banner{
+.about{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
 }
-.para{
-    padding-right: 15%;
+.about-me{
+    margin-left: 10%;
+    text-align: justify;
+    padding-right: 10%;
 }
-.use-footer{
+
+.my-recipies {
     text-align: center;
-    font-size: 30px;
+    height: 20%;
 }
-.use-footer p{
+.my-recipies p{
+    text-align: center;
     margin-left: 20%;
     margin-right: 20%;
 }
-.recipie-class{
-        width: 40%;
-        margin-left: 10px;
-        margin-right: 50px;
-        padding-left: 5%;
-        border-radius: 10px;
-        box-shadow: 10px 10px 40px gray;
+.recipies{
+    width: 50%;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-color: white;
+}
+.recipies img {
+    width: 110%;
+    padding-top: 20px;
+    object-fit: contain;
+}
+.footer-box{
+    border: 1px solid darkgray;
+    border-style: outset;
+    box-shadow: gray;
+    border-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 30% 0% 30%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.followers{
+ padding: 30% 30%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    padding-top: 5%;
 }
